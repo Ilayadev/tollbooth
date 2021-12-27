@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.queue{
+    width: 100%;
+    background-color: gray;
+    height: 79px;
+    display: flex;
+    align-items: center;
+    
+}
+.queue>div{
+    transform: rotate(-90deg);
+}
+
+.road{
+    width: 100%;
+    height: 200px;
+    border: 1px solid ;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 2px solid white;
+}
+.road>div{
+    transform: rotate(90deg);
+}
+
+.car{
+    width: 69px;
+    height: 103px;  
+    text-align: center;
+    padding-top: 1%;
+    margin: 37px;
+    position: relative;
+    left: 0%;
+    color: white;
+    background-image: url(/home/zoho/Desktop/tollboothpractise/vehicle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.charges{
+    color:white;
+}
+.toll{
+    border: 1px solid white;
+    width: 197px;
+    height: 43px;
+    position: absolute;    
+    left: 42.4%;
+    background-color: #069411;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
