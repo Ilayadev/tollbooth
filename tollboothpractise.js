@@ -27,22 +27,7 @@ tollbooth = {
         direction: 'rl',
         queue: 'karumputhoopu'
 
-    },
-    t1003: {
-        id: 't1003',
-        pair: 't1001',
-        passedveh: {
-            TN1001: {time: (3* 60 * 60 * 1000) },
-            TN1004: { time: (3 * 60 * 60 * 1000) },
-            TN1005: { time: (5 * 60 * 60 * 1000) },
-            TN1006: { time: (1 * 60 * 60 * 1000) }
-        },
-        vehicles: ['TN1007', 'TN1008', 'TN1009'],
-        direction: 'rl',
-        queue: 'karumputhoopu'
-
-    }
-    
+    },   
 
 }
 
